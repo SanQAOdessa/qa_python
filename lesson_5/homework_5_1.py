@@ -49,16 +49,14 @@ search_criteria = (2017, 1.6, 36000)
 results = []
 search_year, search_volume, search_price = search_criteria
 for car, characteristics in car_data.items():
-    if (
-            characteristics[1] >= search_year
-            and characteristics[2] >= search_volume
-            and characteristics[4] <= search_price
-    ):
+    if (characteristics[1] >= search_year and
+            characteristics[2] >= search_volume and
+            characteristics[4] <= search_price):
         price = characteristics[4]
         results.append((car, price))
 
 
-results.sort(key=lambda a : a[1])
+results.sort(key=lambda a: a[1])
 print("results of search is:")
 for result in results[0:5]:
     print(result[0], car_data[result[0]])
