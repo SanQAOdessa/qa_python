@@ -71,7 +71,7 @@ print(f"string '{some_string} reverted to: '{reverse_string(some_string)}")
 print("-"*20, "task 5")
 
 def max_long_word_in_list(my_list: list):
-    return sorted(my_list, key=lambda a: len(a))[-1]
+    return max(my_list, key=len)
 
 list_of_words = ["a", "aa", "dddd", "sss"]
 print(list_of_words)
