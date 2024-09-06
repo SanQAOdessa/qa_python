@@ -51,7 +51,7 @@ def arithmetic_mean(numbers):
     else:
         return 0
 
-numbers = [1, 3 ,5]
+numbers = [1, 3, 5]
 print(f"arithmetic mean of {numbers} is {arithmetic_mean(numbers)}")
 
 # task 4
