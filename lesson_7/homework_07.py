@@ -137,7 +137,7 @@ sum_of_even_numbers_in_my_list = sum_of_even_numbers(my_list, print_result=True)
 # task 9
 print("-"*20, "task 9")
 
-def calculate_needs_fuel_and_stops_for_traveling(distance, consumption, tank_capacity, print_result = False):
+def calculate_needs_fuel_and_stops_for_traveling(distance, consumption, tank_capacity, print_result=False):
     """
     calculates needs fuel and stops for traveling by distance, consumption and tank capacity, prints result if needed
     :param distance: int
