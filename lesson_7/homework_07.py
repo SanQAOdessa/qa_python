@@ -13,7 +13,7 @@ def multiplication_table(number):
     while True:
         result = number * multiplier
         # десь тут помила, а може не одна
-        if  result > 25:
+        if result > 25:
             # Enter the action to take if the result is greater than 25
             break
         print(str(number) + "x" + str(multiplier) + "=" + str(result))
